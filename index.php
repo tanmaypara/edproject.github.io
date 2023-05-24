@@ -33,16 +33,16 @@ if (!isset($_SESSION["user"])) {
                     <summary>options</summary>
                     <a href="buy.php"><option class="ram" value="">Buy and Sell</option></a>
                     <a href="lost.php"><option class="ram" value="">Lost and Found</option></a>
-                    <a href="trans.php"><option class="ram" value="">Transport sharing</option></a>
+                    <a href="transport.html"><option class="ram" value="">Transport sharing</option></a>
             </li>
             <li class="home" id="faq">
                 <details>
                     <summary>Inventory</summary>
                     <a href="buyinventory.php"><option class="ram" value="">Buy and Sell Inventory</option></a>
                     <a href="lostinven.php"><option class="ram" value="">Lost and Found Inventory</option></a>
-                    <a href="transportinv.php"><option class="ram" value="">Transport sharing Inventory</option></a>
+                    <a href=""><option class="ram" value="">Transport sharing Inventory</option></a>
             </li>            
-           
+            <li class="home"><a href="team.html">Team member</a></li>
         </ul>
     </div>
 </div>

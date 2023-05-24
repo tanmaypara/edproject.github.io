@@ -37,7 +37,7 @@
             </tr>
             <?php
                 include 'databuy.php';  
-                $selectqurey = "select* from tranport "; 
+                $selectqurey = "select* from tran "; 
                 $query = mysqli_query($con,$selectqurey );
                 while($res = mysqli_fetch_array($query)){
                     echo "<tr>";

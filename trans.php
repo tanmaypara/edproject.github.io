@@ -68,7 +68,7 @@ if(isset($_POST['done'])){
 	</style>
 </head>
 <body>
-<form class="form" method="post"action="trans.php" enctype="multipart/form-data">
+<form class="form" method="post"action="index.php" enctype="multipart/form-data">
 		<h1>transport sharing </h1>
 		<label for="name">Your Name:</label>
 		<input type="text" id="name" name="name" placeholder="Enter your name" required>

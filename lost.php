@@ -72,7 +72,7 @@ if(isset($_POST['done'])){
 	</style>
 </head>
 <body>
-	<form class="form" method="post"action="lost.php">
+	<form class="form" method="post"action="index.php">
 		<h1>Lost and Found Form</h1>
 		<label for="name">Your Name:</label>
 		<input type="text" id="name" name="name" placeholder="Enter your name" required>
